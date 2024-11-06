@@ -9,18 +9,46 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.1.3",
+    "@kinde-oss/kinde-auth-nextjs": "^2.4.4",
+    "@neondatabase/serverless": "^0.10.1",
+    "@prisma/client": "^5.21.1",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-icons": "^1.3.1",
+    "@radix-ui/react-scroll-area": "^1.2.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@uploadthing/react": "^7.1.0",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "drizzle-orm": "^0.36.0",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.5",
+    "openai": "^4.70.3",
+    "pptxgenjs": "^3.12.0",
+    "prisma": "^5.21.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^7.2.0",
+    "xmldom": "^0.6.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@types/xmldom": "^0.1.34",
+    "drizzle-kit": "^0.27.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
